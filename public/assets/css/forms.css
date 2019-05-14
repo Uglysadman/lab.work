@@ -1,0 +1,119 @@
+#form_panel {
+    background-color: rgba(98, 103, 114, 0.596);
+    border-radius: 20px;
+    padding: 1%;
+    width: fit-content;
+    max-width: 600px;
+    max-height: max-content;
+    margin: 5% auto 10px;
+    text-align: center;
+    position: relative;
+}
+
+#form_panel textarea {
+    width: 90%;
+    height: 150px;
+    resize: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16pt;
+}
+
+#form_panel p {
+    margin: 10px 0 10px;
+    display: block;
+    text-align: start;
+}
+
+#form_panel label {
+    margin: 10px 0 10px;
+    display: block;
+    text-align: center;
+}
+
+textarea::-webkit-input-placeholder { color: rgb(211, 211, 211); }
+
+::-webkit-input-placeholder {
+    color: rgb(211, 211, 211);
+}
+
+input[type="text"]{
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 7px;
+    padding-left: 10px;
+}
+
+
+select {
+    display: block;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: slategrey;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination {
+    margin: 20px auto 5px;
+}
+
+.pagination a{
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: slategrey;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination a:hover{
+    background-color: rgb(26, 98, 156);
+}
+
+.content-blog {
+    max-width: 600px;
+    max-height: max-content;
+    margin:10px auto 50px;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.content-blog img {
+    width: 150px; 
+    height: 150px; 
+    display:block;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+
+.content-note {
+    max-width: 600px;
+    max-height: max-content;
+    margin:10px auto;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.content-comments {
+    max-width: 600px;
+    max-height: max-content;
+    margin:10px auto;
+    padding: 10px;
+    display: block;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 10px;
+}

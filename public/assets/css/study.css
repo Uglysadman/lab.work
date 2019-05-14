@@ -1,0 +1,15 @@
+.study_name p{
+    font-size: 15pt;
+    text-align: center;
+}
+
+#study_panel table {
+    margin: 1% auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+#study_panel th {
+    padding: 5px;
+    border: 2px solid white;
+}

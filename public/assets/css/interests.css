@@ -1,0 +1,22 @@
+#interests_panel {
+    text-align: center;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+#interests_panel ul {
+    list-style: none;
+}
+
+#interests_panel a {
+    color: #ffffff;
+}
+
+.favourite img {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    padding: 10px;
+}

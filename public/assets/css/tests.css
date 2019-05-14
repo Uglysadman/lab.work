@@ -1,0 +1,63 @@
+#tests_block {
+    background-color: dimgrey;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    font-size: 14pt;
+    padding: 1%;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    margin: 1%;
+}
+
+input[type="radio"] {
+    -webkit-appearance: radio;
+    margin: 1%;
+}
+
+select {
+    padding: 13px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: slategrey;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+select:hover {
+    background-color: cadetblue;
+}
+
+::-webkit-input-placeholder {
+    color: lightgrey;
+    font-size: 14pt;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 7px;
+    padding-left: 10px;
+}
+
+.btn-tests {
+    padding: 13px 15px;
+    margin: 7px;
+    font-size: 16px;
+    color: #fff;
+    background-color: slategrey;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: cadetblue;
+}
